@@ -17,9 +17,9 @@ This project analyzes a dataset of 911 emergency calls to uncover insights about
 
 ## 📂 Dataset
 
--- The dataset contains information about 911 emergency calls, including:
+- The dataset contains information about 911 emergency calls, including:
 
---- title – type of emergency (Fire, Traffic, Medical, etc.)
+-  title – type of emergency (Fire, Traffic, Medical, etc.)
 
 --- timeStamp – date and time of the call
 
