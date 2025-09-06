@@ -33,47 +33,47 @@ The dataset contains information about 911 emergency calls, including:
 
 Data Loading & Inspection
 
-Read the dataset into a Pandas DataFrame
+- Read the dataset into a Pandas DataFrame
 
-Check for missing values, data types, and basic statistics
+- Check for missing values, data types, and basic statistics
 
 Feature Engineering
 
-Extract Reason from title (e.g., Fire, Medical, Traffic)
+- Extract Reason from title (e.g., Fire, Medical, Traffic)
 
-Convert timeStamp to datetime format
+- Convert timeStamp to datetime format
 
-Create new columns: Hour, Month, Day of Week
+- Create new columns: Hour, Month, Day of Week
 
 Exploratory Data Analysis
 
-Most common zip codes and reasons for 911 calls
+- Most common zip codes and reasons for 911 calls
 
-Frequency of calls by day of week, month, and hour
+- Frequency of calls by day of week, month, and hour
 
-Trends in number of calls per month
+- Trends in number of calls per month
 
-Heatmaps and count plots to show relationships between time and reason
+- Heatmaps and count plots to show relationships between time and reason
 
 Data Visualization
 
-Countplots for categorical distributions
+- Countplots for categorical distributions
 
-Line plots to show trends over months
+- Line plots to show trends over months
 
-Heatmaps for call frequency by day/hour
+- Heatmaps for call frequency by day/hour
 
-Regression plots to detect seasonal patterns
+- Regression plots to detect seasonal patterns
 
  ## 📊 Insights
 
-Medical emergencies are the most common reason for calls.
+- Medical emergencies are the most common reason for calls.
 
-Certain weekdays (like Friday & Saturday) see higher call volumes.
+- Certain weekdays (like Friday & Saturday) see higher call volumes.
 
-Calls show time-of-day patterns, peaking in the afternoon and evening.
+- Calls show time-of-day patterns, peaking in the afternoon and evening.
 
-Clear seasonal trends can be seen across months.
+- Clear seasonal trends can be seen across months.
 
 ## ▶️ How to Run
 
