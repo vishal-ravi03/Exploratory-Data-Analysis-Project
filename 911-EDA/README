@@ -1,0 +1,92 @@
+# 📊 911 Emergency Calls - Exploratory Data Analysis
+# 📌 Project Overview
+
+This project analyzes a dataset of 911 emergency calls to uncover insights about the most common types of emergencies, their frequency across different days, months, and hours, and trends over time. The goal is to perform Exploratory Data Analysis (EDA) using Python, Pandas, Seaborn, and Matplotlib to visualize and better understand the data.
+
+⚙️ Technologies Used
+
+Python 3
+
+Jupyter Notebook
+
+Pandas – for data cleaning and manipulation
+
+NumPy – for numerical operations
+
+Matplotlib & Seaborn – for data visualization
+
+# 📂 Dataset
+
+The dataset contains information about 911 emergency calls, including:
+
+title – type of emergency (Fire, Traffic, Medical, etc.)
+
+timeStamp – date and time of the call
+
+lat, lng – geographic location (latitude & longitude)
+
+zip – zipcode where the call was reported
+
+Other relevant attributes
+
+# 🔑 Key Steps in the Analysis
+
+Data Loading & Inspection
+
+Read the dataset into a Pandas DataFrame
+
+Check for missing values, data types, and basic statistics
+
+Feature Engineering
+
+Extract Reason from title (e.g., Fire, Medical, Traffic)
+
+Convert timeStamp to datetime format
+
+Create new columns: Hour, Month, Day of Week
+
+Exploratory Data Analysis
+
+Most common zip codes and reasons for 911 calls
+
+Frequency of calls by day of week, month, and hour
+
+Trends in number of calls per month
+
+Heatmaps and count plots to show relationships between time and reason
+
+Data Visualization
+
+Countplots for categorical distributions
+
+Line plots to show trends over months
+
+Heatmaps for call frequency by day/hour
+
+Regression plots to detect seasonal patterns
+
+# 📊 Insights
+
+Medical emergencies are the most common reason for calls.
+
+Certain weekdays (like Friday & Saturday) see higher call volumes.
+
+Calls show time-of-day patterns, peaking in the afternoon and evening.
+
+Clear seasonal trends can be seen across months.
+
+# ▶️ How to Run
+
+Clone the repository or download the project files.
+
+Install the required libraries:
+
+pip install pandas numpy matplotlib seaborn
+
+
+Open the notebook:
+
+jupyter notebook 911_EDA.ipynb
+
+
+Run all cells to reproduce the analysis and visualizations.
