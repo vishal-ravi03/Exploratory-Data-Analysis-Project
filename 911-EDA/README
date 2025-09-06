@@ -1,4 +1,4 @@
-# 📊 911 Emergency Calls - Exploratory Data Analysis
+#📊 911 Emergency Calls - Exploratory Data Analysis
 # 📌 Project Overview
 
 This project analyzes a dataset of 911 emergency calls to uncover insights about the most common types of emergencies, their frequency across different days, months, and hours, and trends over time. The goal is to perform Exploratory Data Analysis (EDA) using Python, Pandas, Seaborn, and Matplotlib to visualize and better understand the data.
