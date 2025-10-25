@@ -75,12 +75,5 @@ The dataset (`titanic_train.csv`) contains information about passengers aboard t
     ```sh
     pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab
     ```
-3.  Navigate to the project directory in your terminal.
-4.  Launch Jupyter Notebook or Jupyter Lab:
-    ```sh
-    jupyter lab
-    # or
-    # jupyter notebook
-    ```
-5.  Open the `Titanic_EDA.ipynb` notebook.
-6.  Run the cells sequentially to reproduce the analysis, visualizations, and model results.
+3.  Open the `Titanic_EDA.ipynb` notebook.
+4.  Run the cells sequentially to reproduce the analysis, visualizations, and model results.
