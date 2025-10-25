@@ -80,9 +80,9 @@ Data Visualization
 Clone the repository or download the project files.
 
 Install the required libraries:
-
-pip install pandas numpy matplotlib seaborn
-
+```sh
+    pip install pandas numpy matplotlib seaborn 
+ ```
 
 Open the notebook:
 
