@@ -1,10 +1,10 @@
 # 🚢 Titanic Survival Prediction - Exploratory Data Analysis & Baseline Model
 
-📌 ## Project Overview
+## 📌 Project Overview
 
 This project analyzes the classic Kaggle Titanic dataset (`titanic_train.csv`) to perform Exploratory Data Analysis (EDA). The goal is to uncover patterns related to passenger survival based on features like passenger class, sex, age, fare, and embarkation point. The analysis includes data visualization, handling missing data, converting categorical features, and building a baseline Logistic Regression model for survival prediction.
 
-⚙️ ## Technologies Used
+## ⚙️ Technologies Used
 
 * Python 3
 * Jupyter Notebook
@@ -13,7 +13,7 @@ This project analyzes the classic Kaggle Titanic dataset (`titanic_train.csv`) t
 * Matplotlib & Seaborn – for data visualization
 * Scikit-learn – for model building (Logistic Regression) and evaluation
 
-📂 ## Dataset
+## 📂 Dataset
 
 The dataset (`titanic_train.csv`) contains information about passengers aboard the RMS Titanic, including whether they survived the disaster. Key attributes include:
 
@@ -30,7 +30,7 @@ The dataset (`titanic_train.csv`) contains information about passengers aboard t
 * `Cabin`: Cabin number (contains many missing values).
 * `Embarked`: Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
-🔑 ## Key Steps in the Analysis
+## 🔑 Key Steps in the Analysis
 
 1.  **Data Loading & Inspection:**
     * Read the `titanic_train.csv` dataset into a Pandas DataFrame.
@@ -60,7 +60,7 @@ The dataset (`titanic_train.csv`) contains information about passengers aboard t
     * Make predictions on the test set.
     * Evaluate the model's performance using a `classification_report`.
 
-📊 ## Insights & Findings
+## 📊  Insights & Findings
 
 * Missing data was primarily found in `Age` and `Cabin`. `Age` was imputed, while `Cabin` was dropped.
 * Survival rates varied significantly based on `Sex` (females had higher survival) and `Pclass` (higher classes had higher survival).
@@ -68,7 +68,7 @@ The dataset (`titanic_train.csv`) contains information about passengers aboard t
 * Passenger ages tended to differ across passenger classes, justifying imputation based on `Pclass`.
 * A baseline Logistic Regression model was built and evaluated, providing initial predictive performance metrics (see notebook for details).
 
-▶️ ## How to Run
+## ▶️ How to Run
 
 1.  Clone the repository or download the project files (`Titanic_EDA.ipynb`, `titanic_train.csv`).
 2.  Ensure you have Python and the required libraries installed. If not, install them using pip:
